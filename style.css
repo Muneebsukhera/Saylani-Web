@@ -1,0 +1,453 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent1{
+
+        display: flex;
+        
+
+}
+
+
+.box1{
+
+    background-image: url(./Images/image1.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50px;
+    margin-left: -10%;
+    margin-top: 1%;
+}
+
+.box2{
+
+
+    padding: 3% 0%;
+    margin: 1% -12%;
+
+}
+
+
+.box2 ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    color: rgb(56, 54, 54);
+    font-family: sans-serif;
+    font-size: 80%;
+
+}
+.box2 ul li {
+    cursor: pointer;
+    position: relative;
+
+    
+}
+
+
+
+.parent2{
+             
+    display: flex;
+
+}
+
+
+.box3{
+
+    padding: 5%;
+    font-family: sans-serif;
+    font-size: 90%;
+    
+}
+
+.box3 span{
+
+    color: #8dc63f;
+}
+
+.box3 .span2{
+
+    color: rgb(11, 139, 212);
+
+}
+
+.box3 button{
+
+    padding: 3%;
+    cursor: pointer;
+
+}
+
+.box4{
+
+    background-image: url(./Images/image2.png);
+    background-position: 50%;
+    background-size: cover;
+    width: 40%;
+
+}
+
+.donationCate {
+    width: 95%;
+    background-color: rgba(182, 239, 73, .2);
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.donationCateContent h1 {
+    font-size: 30px;
+}
+
+.donationCateContent h4 {
+    color: #0d6db7;
+}
+
+.donationCateContent {
+    width: 20%;
+}
+
+.donationBtns {
+    width: 70%;
+}
+
+.donationBtns button {
+    padding: 15px;
+    border: none;
+    background-color: white;
+    outline: none;
+    border-radius: 10px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.donationBtns button:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+
+}
+
+.activeBtn2 {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+}
+
+
+
+/* .box5{
+
+    
+    background-color: rgba(182,239,73,.2);
+    width: 95%;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    
+
+}
+
+.box5 h1{
+
+    font-size: 180%;
+    font-family: sans-serif;
+
+}
+
+.box5 p{
+
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+    color: rgb(11, 139, 212);
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+
+
+
+.box-5 .sp{
+   
+display: inline-block;
+    
+
+} */
+
+
+
+
+
+
+
+.box6{
+
+    background-image: url(./Images/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 500px;
+    margin-left: 20px;
+}
+
+
+.box7 h1{
+
+    font-size: 200%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+
+.parent3{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+    
+}
+
+
+.parent3 p{
+
+    
+    padding: 5%;
+    width: 100%;
+    
+
+}
+
+
+
+.parent4 {
+
+    
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.img1{
+
+     width: 100%;
+    border-radius: 10%; 
+    margin-left: 10%;
+    margin-top: 10%;
+
+    
+}
+
+.img2{
+
+     width: 111%;
+    border-radius: 10%; 
+    margin-left: 17%;
+    margin-top: 10%;
+}
+
+
+
+.img3{
+
+     width: 73%;
+    border-radius: 10%;
+    margin-left: 22%;
+    margin-top: 6%;
+}
+
+
+.parent5{
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.box18{
+
+
+    font-family: sans-serif;
+    width: 90%;
+    font-size: 80%;
+}
+
+
+.img4{
+
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 15% 0% 0%;
+
+}
+
+
+.box18 span{
+
+
+    color: rgb(11, 139, 212);
+    font-family: sans-serif;
+
+}
+
+.img5{
+
+    width: 6%;
+    cursor: pointer;
+}
+
+.box18 h1{
+    margin-top: 10%;
+}
+
+.img6{
+
+    cursor: pointer;
+    width: 6%;
+    margin-top: 5%;
+
+}
+
+.img7{
+
+    width: 6%;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.img8{
+
+    width: 6%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+
+
+
+
+.box22 h1{
+
+
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+    margin-top: 10%;
+
+
+}
+
+.parent6{
+
+    display: flex;
+justify-content: center;
+  
+
+}
+
+
+.box23 .img9{
+
+    width: 22%;
+    height: 130%;
+    margin-left: 2%;
+    border-radius: 5%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+
+
+.box24{
+ 
+    background-image: url(./Images/image22.png);
+    background-color: rgb(11, 139, 212);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 190px;
+    margin-top: 25%;
+    margin-left: 5%;
+
+
+}
+
+.box24 h1{
+
+    text-align: center;
+    padding-top: 10%;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.in{
+
+    margin-left: 30%;
+    margin-top: 3%;
+    padding: 1%;
+    border: 1 solid black;
+    border-radius: 3%;
+
+}
+
+.b{
+
+    padding: 1%;
+    margin-left: 3%;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+
+.box25{
+
+
+    background-image: url(./Images/image23.png);
+    background-color: rgb(58, 57, 57);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 10%;
+}
+
+.img10{
+
+    width: 40%;
+    padding: 5%;
+}
+
+
+.img11{
+
+    margin-left: 30%;
+    width: 30%;
+}
+
+
+.box26{
+
+    color: aliceblue;
+    margin-left: 5%;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
